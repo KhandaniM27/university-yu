@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>دانشگاه یاسوج | نگین زاگرس</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Font Awesome برای آیکون‌ها -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+</head>
+<body>
+    <!-- هدر با منوی شیشه‌ای (Glassmorphism) -->
+    <header>
+        <div class="container nav-container">
+            <div class="logo">
+                <i class="fas fa-university"></i>
+                <span>دانشگاه یاسوج</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">درباره</a></li>
+                    <li><a href="#faculty">دانشکده‌ها</a></li>
+                    <li><a href="#stats">آمار</a></li>
+                    <li><a href="#contact">تماس</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle"><i class="fas fa-bars"></i></div>
+        </div>
+    </header>
+
+    <!-- بخش Hero با انیمیشن پس‌زمینه -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <h1 class="glitch-text">دانشگاه یاسوج</h1>
+            <p>نگین علم و فرهنگ در دامان زاگرس</p>
+            <a href="#about" class="btn btn-primary">بیشتر بدانید <i class="fas fa-arrow-left"></i></a>
+        </div>
+        <!-- المان‌های تزیینی متحرک (خلاقیت) -->
+        <div class="floating-shapes">
+            <div class="shape shape1"></div>
+            <div class="shape shape2"></div>
+            <div class="shape shape3"></div>
+        </div>
+    </section>
+
+    <!-- درباره دانشگاه -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title"><i class="fas fa-leaf"></i> درباره دانشگاه</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>دانشگاه یاسوج در سال ۱۳۷۰ تأسیس شد و هم‌اکنون با بیش از <strong>۷۰۰۰ دانشجو</strong> و <strong>۳۰۰ عضو هیئت علمی</strong>، یکی از معتبرترین مراکز آموزش عالی در جنوب غرب ایران است.</p>
+                    <p>این دانشگاه با بهره‌گیری از طبیعت بکر و امکانات مدرن، بستری ایده‌آل برای رشد علمی و فرهنگی فراهم کرده است.</p>
+                    <div class="about-features">
+                        <span><i class="fas fa-check-circle"></i> رتبه برتر کشوری</span>
+                        <span><i class="fas fa-check-circle"></i> مجهز به آزمایشگاه‌های پیشرفته</span>
+                        <span><i class="fas fa-check-circle"></i> خوابگاه‌های مدرن</span>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://via.placeholder.com/500x300/2d6a4f/ffffff?text=دانشگاه+یاسوج" alt="دانشگاه یاسوج" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- دانشکده‌ها با کارت‌های ۳D -->
+    <section id="faculty" class="faculty">
+        <div class="container">
+            <h2 class="section-title"><i class="fas fa-graduation-cap"></i> دانشکده‌ها</h2>
+            <div class="faculty-grid">
+                <div class="faculty-card">
+                    <i class="fas fa-flask"></i>
+                    <h3>علوم پایه</h3>
+                    <p>زیست‌شناسی، شیمی، فیزیک، ریاضی</p>
+                </div>
+                <div class="faculty-card">
+                    <i class="fas fa-cogs"></i>
+                    <h3>فنی و مهندسی</h3>
+                    <p>عمران، برق، کامپیوتر، مکانیک</p>
+                </div>
+                <div class="faculty-card">
+                    <i class="fas fa-book-open"></i>
+                    <h3>علوم انسانی</h3>
+                    <p>روان‌شناسی، علوم تربیتی، زبان‌شناسی</p>
+                </div>
+                <div class="faculty-card">
+                    <i class="fas fa-heartbeat"></i>
+                    <h3>پزشکی و پیراپزشکی</h3>
+                    <p>پرستاری، مامایی، بهداشت عمومی</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- آمار با شمارنده (Counter) -->
+    <section id="stats" class="stats">
+        <div class="container">
+            <h2 class="section-title"><i class="fas fa-chart-line"></i> آمار در یک نگاه</h2>
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <span class="stat-number" data-target="7000">0</span>
+                    <span>دانشجو</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="300">0</span>
+                    <span>عضو هیئت علمی</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="50">0</span>
+                    <span>رشته تحصیلی</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="120">0</span>
+                    <span>کتابخانه تخصصی</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- تماس با نقشه تعاملی (شبه) -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title"><i class="fas fa-map-pin"></i> ارتباط با ما</h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <p><i class="fas fa-map-marker-alt"></i> کهگیلویه و بویراحمد، یاسوج، بلوار امامت</p>
+                    <p><i class="fas fa-phone"></i> ۰۷۴-۳۳۲۲۰۰۰۰</p>
+                    <p><i class="fas fa-envelope"></i> info@yu.ac.ir</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="contact-map">
+                    <!-- نقشه ساختگی با CSS -->
+                    <div class="fake-map">
+                        <i class="fas fa-map-marked-alt" style="font-size: 4rem; color: #2d6a4f;"></i>
+                        <p>📍 دانشگاه یاسوج - نقشه تعاملی</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- فوتر -->
+    <footer>
+        <div class="container">
+            <p>تمامی حقوق متعلق به <strong>دانشگاه یاسوج</strong> است © ۱۴۰۵</p>
+           
+        </div>
+    </footer>
+
+    <!-- اسکریپت شمارنده -->
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const counters = document.querySelectorAll(".stat-number");
+            counters.forEach(counter => {
+                const target = +counter.dataset.target;
+                let current = 0;
+                const increment = target / 150;
+                const updateCounter = () => {
+                    if (current < target) {
+                        current += increment;
+                        counter.innerText = Math.ceil(current);
+                        setTimeout(updateCounter, 20);
+                    } else {
+                        counter.innerText = target;
+                    }
+                };
+                updateCounter();
+            });
+        });
+    </script>
+</body>
+</html>
